@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-8">
           <h1>Michael Borde
             <small>Développeur passionné</small>
           </h1>
@@ -48,7 +48,34 @@
             discuter autour de l'écosystème XP et des lolcats.
           </p>
 
-          <h2>Mes compétences avouables</h2>
+          <h2>Mes artefacts</h2>
+
+          <h3><a href="https://github.com/arpinum/shebang_unit" title="shebang_unit">shebang_unit
+            <img src="images/octocat.png" class="emoji" height="24" width="24"></a></h3>
+
+          <p><strong>shebang_unit</strong> est un framework de test automatisés pour Bash 4 basé sur
+            <a href="http://wikipedia.org/wiki/XUnit" title="xUnit">xUnit</a>.</p>
+          <pre><code>
+function can_assert_equality() {
+  assertion__equal 4 $((3+1))
+}
+          </code></pre>
+          <h3><a href="https://github.com/arpinum/cocoritest" title="Cocoritest">Cocoritest
+            <img src="images/octocat.png" class="emoji" height="24" width="24"></a></h3>
+
+          <p><strong>Cocoritest</strong> est une api Java 8 permettant d'écrire des affirmations de test unitaire dans
+            une syntaxe proche du français.</p>
+          <pre><code>
+@Test
+public void deuxCollectionsNullesSontEgales() {
+  boolean résultat = Collections.égales(null, null);
+
+  alors().le(résultat).estVrai();
+}
+          </code></pre>
+        </div>
+        <div class="col-md-4">
+          <h2>Compétences avouables</h2>
 
           <div class="tags">
             <button class="btn btn-default" type="button">XP</button>
@@ -78,34 +105,6 @@
             <button class="btn btn-default" type="button">Photographie</button>
             <button class="btn btn-default" type="button">Jeux vidéo</button>
           </div>
-        </div>
-        <div class="col-md-6">
-          <h2>Mes artefacts</h2>
-
-          <h3><a href="https://github.com/arpinum/shebang_unit" title="shebang_unit">shebang_unit
-            <img src="images/octocat.png" class="emoji" height="24" width="24"></a></h3>
-
-          <p><strong>shebang_unit</strong> est un framework de test automatisés pour Bash 4 basé sur
-            <a href="http://wikipedia.org/wiki/XUnit" title="xUnit">xUnit</a>.</p>
-
-          <pre><code>
-function can_assert_equality() {
-  assertion__equal 4 $((3+1))
-}
-          </code></pre>
-          <h3><a href="https://github.com/arpinum/cocoritest" title="Cocoritest">Cocoritest
-            <img src="images/octocat.png" class="emoji" height="24" width="24"></a></h3>
-
-          <p><strong>Cocoritest</strong> est une api Java 8 permettant d'écrire des affirmations de test unitaire dans
-            une syntaxe proche du français.</p>
-          <pre><code>
-@Test
-public void deuxCollectionsNullesSontEgales() {
-  boolean résultat = Collections.égales(null, null);
-
-  alors().le(résultat).estVrai();
-}
-          </code></pre>
           <!--<button type="button" class="btn btn-danger">Ne pas cliquer</button>-->
         </div>
       </div>
