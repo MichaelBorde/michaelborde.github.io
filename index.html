@@ -7,15 +7,19 @@
     <title>Michael Borde</title>
     <link href="composants/bootstrap_3.2/bootstrap.min.css" rel="stylesheet">
     <style>
-      body {
-        color: #ddd;
-        background-color: #444;
+      #shebang {
+        background-color: #fff;
+        border: 0;
       }
 
-      pre {
-        color: #ddd;
-        background-color: #444;
+      div.tags .btn {
+        margin-bottom: 5px;
+      }
+
+      img.emoji {
+        padding: 0;
         border: 0;
+        vertical-align: inherit;
       }
     </style>
   </head>
@@ -23,7 +27,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-2">
-        <pre class="bash"><code>
+        <pre id="shebang"><code>
 #!/bin/bash
         </code></pre>
         </div>
@@ -44,25 +48,66 @@
             discuter autour de l'écosystème XP et des lolcats.
           </p>
 
+          <h2>Mes compétences avouables</h2>
+
+          <div class="tags">
+            <button class="btn btn-default" type="button">XP</button>
+            <button class="btn btn-default" type="button">TDD</button>
+            <button class="btn btn-default" type="button">Refactoring</button>
+            <button class="btn btn-default" type="button">DDD</button>
+            <button class="btn btn-default" type="button">Agilité</button>
+            <button class="btn btn-default" type="button">Clean code</button>
+            <button class="btn btn-default" type="button">Clean architecture</button>
+            <button class="btn btn-default" type="button">REST</button>
+            <button class="btn btn-default" type="button">ROA</button>
+            <button class="btn btn-default" type="button">JavaScript</button>
+            <button class="btn btn-default" type="button">Node.js</button>
+            <button class="btn btn-default" type="button">Bash</button>
+            <button class="btn btn-default" type="button">C#</button>
+            <button class="btn btn-default" type="button">IntelliJ IDEA</button>
+            <button class="btn btn-default" type="button">Git</button>
+            <button class="btn btn-default" type="button">Java</button>
+            <button class="btn btn-default" type="button">Maven</button>
+          </div>
+
+          <h2>Une vie après le code...</h2>
+
+          <div class="tags">
+            <button class="btn btn-default" type="button">Salsa</button>
+            <button class="btn btn-default" type="button">Moto</button>
+            <button class="btn btn-default" type="button">Photographie</button>
+            <button class="btn btn-default" type="button">Jeux vidéo</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2>Mes artefacts</h2>
+
+          <h3><a href="https://github.com/arpinum/shebang_unit" title="shebang_unit">shebang_unit
+            <img src="images/octocat.png" class="emoji" height="24" width="24"></a></h3>
+
+          <p><strong>shebang_unit</strong> est un framework de test automatisés pour Bash 4 basé sur
+            <a href="http://wikipedia.org/wiki/XUnit" title="xUnit">xUnit</a>.</p>
+
+          <pre><code>
+function can_assert_equality() {
+  assertion__equal 4 $((3+1))
+}
+          </code></pre>
+          <h3><a href="https://github.com/arpinum/cocoritest" title="Cocoritest">Cocoritest
+            <img src="images/octocat.png" class="emoji" height="24" width="24"></a></h3>
+
+          <p><strong>Cocoritest</strong> est une api Java 8 permettant d'écrire des affirmations de test unitaire dans
+            une syntaxe proche du français.</p>
+          <pre><code>
+@Test
+public void deuxCollectionsNullesSontEgales() {
+  boolean résultat = Collections.égales(null, null);
+
+  alors().le(résultat).estVrai();
+}
+          </code></pre>
           <!--<button type="button" class="btn btn-danger">Ne pas cliquer</button>-->
         </div>
-        <!--"XP",-->
-        <!--"TDD",-->
-        <!--"Refactoring",-->
-        <!--"DDD",-->
-        <!--"Agilité",-->
-        <!--"Clean code",-->
-        <!--"Clean architecture",-->
-        <!--"REST",-->
-        <!--"ROA",-->
-        <!--"JavaScript",-->
-        <!--"NodeJS",-->
-        <!--"Bash",-->
-        <!--"C#",-->
-        <!--"IntelliJ IDEA",-->
-        <!--"Git",-->
-        <!--"Java",-->
-        <!--"Maven"-->
       </div>
     </div>
     <script src="composants/jquery_1.11.1/jquery-1.11.1.min.js"></script>
