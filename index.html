@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Michael Borde</title>
     <link href="composants/bootstrap_3.2/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="composants/hightlight_8.2/idea.css">
     <style>
       #shebang {
         background-color: #fff;
@@ -21,13 +22,18 @@
         border: 0;
         vertical-align: inherit;
       }
+
+      pre code.hljs {
+        background: inherit;
+        padding: 0;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div class="col-md-2">
-        <pre id="shebang"><code>
+        <pre id="shebang"><code class="nohighlight">
 #!/bin/bash
         </code></pre>
         </div>
@@ -55,7 +61,7 @@
 
           <p><strong>shebang_unit</strong> est un framework de test automatisés pour Bash 4 basé sur
             <a href="http://wikipedia.org/wiki/XUnit" title="xUnit">xUnit</a>.</p>
-          <pre><code>
+          <pre><code class="bash">
 function can_assert_equality() {
   assertion__equal 4 $((3+1))
 }
@@ -65,7 +71,7 @@ function can_assert_equality() {
 
           <p><strong>Cocoritest</strong> est une api Java 8 permettant d'écrire des affirmations de test unitaire dans
             une syntaxe proche du français.</p>
-          <pre><code>
+          <pre><code class="java">
 @Test
 public void deuxCollectionsNullesSontEgales() {
   boolean résultat = Collections.égales(null, null);
@@ -75,7 +81,7 @@ public void deuxCollectionsNullesSontEgales() {
           </code></pre>
         </div>
         <div class="col-md-4">
-          <h2>Compétences avouables</h2>
+          <h2>Mes talents avouables</h2>
 
           <div class="tags">
             <button class="btn btn-default" type="button">XP</button>
@@ -97,7 +103,7 @@ public void deuxCollectionsNullesSontEgales() {
             <button class="btn btn-default" type="button">Maven</button>
           </div>
 
-          <h2>Une vie après le code...</h2>
+          <h2>Après le code...</h2>
 
           <div class="tags">
             <button class="btn btn-default" type="button">Salsa</button>
@@ -110,5 +116,13 @@ public void deuxCollectionsNullesSontEgales() {
       </div>
     </div>
     <script src="composants/jquery_1.11.1/jquery-1.11.1.min.js"></script>
+    <script src="composants/hightlight_8.2/highlight.pack.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('pre code').each(function (i, block) {
+          hljs.highlightBlock(block);
+        });
+      });
+    </script>
   </body>
 </html>
