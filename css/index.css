@@ -1,0 +1,14 @@
+#shebang {
+  background-color: #fff;
+  border: 0;
+}
+
+div.tags .btn {
+  margin-bottom: 5px;
+}
+
+img.emoji {
+  padding: 0;
+  border: 0;
+  vertical-align: inherit;
+}
