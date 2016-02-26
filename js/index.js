@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('div.tags').melange('button');
+  $('div.tags').melange('span');
 });
 
 (function ($) {
@@ -25,6 +25,7 @@ $(document).ready(function () {
       function ajouteLesElementsDansLeNouvelOrdre() {
         for (var i = 0; i < elementsAMelanger.length; i++) {
           that.append(elementsAMelanger[i]);
+          that.append(' ');
         }
       }
     });

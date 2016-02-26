@@ -1,0 +1,17 @@
+{
+  "name": "michaelborde.fr",
+  "version": "1.0.0",
+  "description": "Mon site personnel",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelBorde/michaelborde.github.io.git"
+  },
+  "author": "Michael Borde",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.1"
+  }
+}

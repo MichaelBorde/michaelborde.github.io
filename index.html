@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Michael Borde</title>
-    <link href="composants/bootstrap_3.2/bootstrap.min.css" rel="stylesheet">
+    <link href="composants/bootstrap.min.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">#!/usr/bin/env bash</a>
+          <span class="navbar-brand">#!/usr/bin/env bash</span>
         </div>
       </div>
     </div>
@@ -38,34 +38,36 @@
           <h2>Mes talents avouables</h2>
 
           <div class="tags">
-            <button class="btn btn-default" type="button">XP</button>
-            <button class="btn btn-default" type="button">TDD</button>
-            <button class="btn btn-default" type="button">Refactoring</button>
-            <button class="btn btn-default" type="button">DDD</button>
-            <button class="btn btn-default" type="button">Agilité</button>
-            <button class="btn btn-default" type="button">Clean code</button>
-            <button class="btn btn-default" type="button">Clean architecture</button>
-            <button class="btn btn-default" type="button">REST</button>
-            <button class="btn btn-default" type="button">ROA</button>
-            <button class="btn btn-default" type="button">JavaScript</button>
-            <button class="btn btn-default" type="button">Node.js</button>
-            <button class="btn btn-default" type="button">AngularJS</button>
-            <button class="btn btn-default" type="button">Ionic</button>
-            <button class="btn btn-default" type="button">Cordova</button>
-            <button class="btn btn-default" type="button">Bash</button>
-            <button class="btn btn-default" type="button">C#</button>
-	    <button class="btn btn-default" type="button">Ruby</button>
-	    <button class="btn btn-default" type="button">Elasticsearch</button>
-            <button class="btn btn-default" type="button">IntelliJ IDEA</button>
-            <button class="btn btn-default" type="button">Emacs</button>
-            <button class="btn btn-default" type="button">Git</button>
-	    <button class="btn btn-default" type="button">Docker</button>
-            <button class="btn btn-default" type="button">Java</button>
-            <button class="btn btn-default" type="button">Maven</button>
-            <button class="btn btn-default" type="button">Salsa</button>
-            <button class="btn btn-default" type="button">Moto</button>
-            <button class="btn btn-default" type="button">Photographie</button>
-            <button class="btn btn-default" type="button">Jeux vidéo</button>
+            <span class="label label-primary">XP</span>
+            <span class="label label-primary">TDD</span>
+            <span class="label label-primary">Refactoring</span>
+            <span class="label label-primary">DDD</span>
+            <span class="label label-primary">CQRS</span>
+            <span class="label label-primary">Event Sourcing</span>
+            <span class="label label-primary">Agilité</span>
+            <span class="label label-primary">Clean code</span>
+            <span class="label label-primary">Clean architecture</span>
+            <span class="label label-primary">REST</span>
+            <span class="label label-primary">ROA</span>
+            <span class="label label-primary">JavaScript</span>
+            <span class="label label-primary">Node.js</span>
+            <span class="label label-primary">AngularJS</span>
+            <span class="label label-primary">Ionic</span>
+            <span class="label label-primary">Cordova</span>
+            <span class="label label-primary">Bash</span>
+            <span class="label label-primary">C#</span>
+            <span class="label label-primary">Ruby</span>
+            <span class="label label-primary">Elasticsearch</span>
+            <span class="label label-primary">IntelliJ IDEA</span>
+            <span class="label label-primary">Emacs</span>
+            <span class="label label-primary">Git</span>
+            <span class="label label-primary">Docker</span>
+            <span class="label label-primary">Java</span>
+            <span class="label label-primary">Maven</span>
+            <span class="label label-primary">Salsa</span>
+            <span class="label label-primary">Moto</span>
+            <span class="label label-primary">Photographie</span>
+            <span class="label label-primary">Jeux vidéo</span>
           </div>
         </div>
         <div class="col-md-4">
@@ -83,10 +85,11 @@
           <p><strong>Cocoritest</strong> est une api Java 8 permettant d'écrire des affirmations de test unitaire dans
             une syntaxe proche du français.</p>
 
-	  <h3><a href="https://github.com/arpinum-oss/beastmaster" title="Beastmaster">Beastmaster
-	      <img src="images/octocat.png" class="emoji" height="24" width="24"></a></h3>
+          <h3><a href="https://github.com/arpinum-oss/beastmaster" title="Beastmaster">Beastmaster
+            <img src="images/octocat.png" class="emoji" height="24" width="24"></a></h3>
 
-	  <p><strong>Beastmaster</strong> est un outil Bash qui peut exécuter des commandes dans des projets mis en favoris.</p>
+          <p><strong>Beastmaster</strong> est un outil Bash qui peut exécuter des commandes dans des projets mis en
+            favoris.</p>
         </div>
         <div class="col-md-4">
           <h2>Ma société</h2>
@@ -94,7 +97,7 @@
           <p><a href="http://www.arpinum.fr" title="Arpinum">Arpinum</a> est un atelier logiciel dévoué à fabriquer
             d'excellents produits, et à changer la manière dont le monde perçoit l'informatique.</p>
 
-          <p><a href="http://www.arpinum.fr" title="Arpinum" class="btn btn-default" role="button">Nous rendre visite
+          <p><a href="http://www.arpinum.fr" title="Arpinum" class="btn btn-primary" role="button">Nous rendre visite
             »</a></p>
         </div>
       </div>
@@ -115,11 +118,11 @@
           <iframe src="http://ghbtns.com/github-btn.html?user=MichaelBorde&type=follow"
                   allowtransparency="true" frameborder="0" scrolling="0" width="146" height="20"></iframe>
         </p>
-        <p class="text-center">© Michael Borde 2015</p>
+        <p class="text-center">© Michael Borde 2016</p>
       </footer>
     </div>
+    <script src="composants/jquery.min.js"></script>
     <script src="js/google-analytics.js"></script>
-    <script src="composants/jquery_1.11.1/jquery-1.11.1.min.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
