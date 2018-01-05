@@ -1,6 +1,21 @@
 body {
   margin-left: 20px;
   margin-right: 20px;
+  font-family: Courier New, Courier, monospace;
+  color: rgb(0, 177, 0);
+  background-color: black;
+}
+
+a,
+a:visited,
+a:active,
+a:hover {
+  color: inherit;
+}
+
+blockquote {
+  border-left: 4px double rgb(0, 177, 0);
+  padding-left: 10px;
 }
 
 ul {
