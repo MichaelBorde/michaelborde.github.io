@@ -1,5 +1,5 @@
 body {
-  width: 800px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -29,15 +29,31 @@ a:hover {
 }
 
 blockquote {
+  margin-left: 20px;
+  margin-right: 20px;
   border-left: 4px double rgb(0, 177, 0);
   padding-left: 10px;
 }
 
-ul {
+ul.tags {
   list-style: none;
   padding: 0;
 }
 
-li {
+ul.tags li {
   display: inline;
+}
+
+ul.tags li:after {
+  content: ", ";
+}
+
+ul.tags li:last-child:after {
+  content: "";
+}
+
+ul,
+p,
+dd {
+  text-align: justify;
 }
