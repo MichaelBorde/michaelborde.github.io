@@ -9,17 +9,33 @@ body {
   background-color: black;
 }
 
-.header {
-  margin: 5px 0;
+body.scanlines {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 177, 0, 0.1) 50%,
+    rgba(0, 177, 0, 0.1)
+  );
+  background-size: 100% 4px;
+  background-color: black;
+}
+
+header.header {
+  margin: 5px 0 40px 0;
   text-align: right;
 }
 
-.header a {
+header.header a {
   text-decoration: none;
 }
 
-.header a:hover {
+header.header a:hover {
   text-decoration: underline;
+}
+
+footer.footer {
+  margin: 40px 0 5px 0;
 }
 
 a,

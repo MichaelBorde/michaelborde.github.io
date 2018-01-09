@@ -9,16 +9,19 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
   <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <script async defer src="js/google-analytics.js"></script>
+  <script src="js/google-analytics.js"></script>
+  <script src="js/index.js"></script>
 </head>
 
 <body>
   <header class="header">
-    <a href="https://twitter.com/michael_borde" title="Twitter">Twitter</a> |
-    <a href="https://github.com/MichaelBorde" title="Github">Github</a>
+    <nav>
+      <a href="https://twitter.com/michael_borde" title="Twitter">Twitter</a> |
+      <a href="https://github.com/MichaelBorde" title="Github">Github</a>
+    </nav>
   </header>
-  <h1>Michael Borde</h1>
-  <p>
+  <section>
+    <h1>Michael Borde</h1>
     <blockquote>
       <p>Créer, c'est vivre deux fois.</p>
       <footer>
@@ -30,7 +33,8 @@
       des produits de qualité tout en prenant beaucoup de plaisir. J’interviens régulièrement dans des missions ou événements
       agiles pour discuter autour de l'écosystème XP et des lolcats.
     </p>
-
+  </section>
+  <section>
     <h2>Mes talents avouables</h2>
     <ul class="tags">
       <li>XP</li>
@@ -67,7 +71,8 @@
       <li>Maven</li>
       <li>Photographie</li>
     </ul>
-
+  </section>
+  <section>
     <h2>Mes artefacts</h2>
     <dl>
       <dt>
@@ -110,12 +115,18 @@
         Beastmaster est un outil Bash qui peut exécuter des commandes dans des projets mis en favoris.
       </dd>
     </dl>
-
+  </section>
+  <section>
     <h2>Ma société</h2>
     <p>
       <a href="http://www.arpinum.fr" title="Arpinum">Arpinum</a> est un atelier logiciel dévoué à fabriquer d'excellents produits, et à changer la manière dont le monde
       perçoit l'informatique.
     </p>
+  </section>
+  <footer class="footer">
+    Scanlines :
+    <a id="scanlines-toggle" href="#" role="button">off</a>
+  </footer>
 </body>
 
 </html>
