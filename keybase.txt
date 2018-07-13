@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mikebo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://michaelborde.fr
+  * I am mikebo (https://keybase.io/mikebo) on keybase.
+  * I have a public key ASDaKG8XiMo8y7QBG1tJXuRtn68zaUR0UAPgVhYDr5FdNQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120da286f1788ca3ccbb4011b5b495ee46d9faf336944745003e0561603af915d350a",
+      "host": "keybase.io",
+      "kid": "0120da286f1788ca3ccbb4011b5b495ee46d9faf336944745003e0561603af915d350a",
+      "uid": "5557ed7964e1874d4a4719be9c6c0619",
+      "username": "mikebo"
+    },
+    "merkle_root": {
+      "ctime": 1531519745,
+      "hash": "d8adff2e5e45407f52765cb9ac851c0514818e4494244a83c8b3fa74a08005de6c95729f9dfaf7d9111323e0903a26ba73901b3afd377271a34b429b3625ac06",
+      "hash_meta": "26429bfbadb7cc65260d84f1ac0df03a8688e61fe8db00ff698aeb4ef8914f0a",
+      "seqno": 3262932
+    },
+    "service": {
+      "entropy": "VIzjen4KszaIl6sJj9HK67Tt",
+      "hostname": "michaelborde.fr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.3.0"
+  },
+  "ctime": 1531519784,
+  "expire_in": 504576000,
+  "prev": "07e293be892e0e82f92689ff73239ee05537755d0d9ca488de5f47f0265e119b",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2ihvF4jKPMu0ARtbSV7kbZ+vM2lEdFAD4FYWA6+RXTUKp3BheWxvYWTESpcCBsQgB+KTvokuDoL5Jon/cyOe4FU3dV0NnKSI3l9H8CZeEZvEIGtRzG+h79yQKAKBdMeTnmqo2Okf33119fK8bvnc81IXAgHCo3NpZ8RAxWBarSWIMH7iv6bEMDWDFIYMHaL007f19CKvgade49PC/B2k/ya8VwuIigy0dNZuQDokwy+UFzdmkC8HiKbJD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJsNAkXfYjGIvuyMW0bTfxa+5xfAcMtbaNX674qEdq6Co3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mikebo
+
+==================================================================
