@@ -10,3 +10,12 @@ body {
 h1,h2,h3 {
   line-height: 1.2
 }
+
+a {
+	color: #0366d6;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
