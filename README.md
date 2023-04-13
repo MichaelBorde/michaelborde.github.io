@@ -1,6 +1,6 @@
 # Site personnel
 
-Mon site personnel accessible ici : https://michaelborde.fr
+Mon site personnel accessible ici : https://michaelborde.github.io
 
 ## Licence
 
